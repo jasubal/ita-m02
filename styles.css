@@ -1,0 +1,78 @@
+/* reset d'estils navegador per defecte */
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start:0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+body > *{
+    margin: 1vh 0;
+}
+
+body {
+    overflow: hidden;
+    background: #e5e6e9;
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    height: 10vh;
+    background: #4b4b4d;
+
+}
+
+nav{
+
+}
+
+
+nav ul {
+
+    height: 6vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+nav ul li{
+    background: #969799;
+    width: 19.7vw;
+}
+
+aside ul {
+
+    height: 14vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+aside ul li {
+    background: #858688;
+    width: 32.8vw;
+}
+
+main {
+    background: #858688;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    background: #4b4b4d;
+    width: 70vw;
+    height: 100%;
+}
+
+footer {
+    background: #4b4b4d;
+    height: 10vh;
+}
