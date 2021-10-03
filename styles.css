@@ -75,6 +75,7 @@ nav ul {
 nav ul li {
     background: #969799;
     width: 19.7vw;
+    margin: 1px;
 }
 
 aside ul {
@@ -89,6 +90,7 @@ aside ul {
 aside ul li {
     background: #858688;
     width: 32.8vw;
+    margin: 1px;
 }
 
 main {
