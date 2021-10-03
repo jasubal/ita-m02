@@ -89,8 +89,8 @@ aside ul {
 
 aside ul li {
     background: #858688;
-    width: 32.8vw;
-    margin: 1px;
+    width: 33vw;
+    margin: 0 2px;
 }
 
 main {
@@ -102,7 +102,7 @@ main {
 
 article {
     background: #4b4b4d;
-    width: 70vw;
+    width: 50vw;
     height: 100%;
 }
 
