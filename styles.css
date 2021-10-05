@@ -5,6 +5,7 @@ ul { display: block; list-style-type: none; margin-block-start: 0; margin-block-
 /* fi dels estils reset */
 
 body {
+    font-family: 'Open Sans', sans-serif;
     overflow: hidden;
     /* per evitar mostrar la barra de scroll */
     background: #e5e6e9;
@@ -17,7 +18,7 @@ body {
 
 #page {
     /* contenedor de tots els elements, l'utilitzo  per poder centrar tota la maquetació */
-    width: 70vw;
+    width: 100vw;
     /* aquí defineixo l'amplada de tota la maqueta en relació a tota l'amplada de la pantalla */
     /* width: 100vw volem ocupar tota l'amplada  */
     height: 100vh;
@@ -33,7 +34,7 @@ body {
 header {
     background: #4b4b4d;
     display: flex;
-    height: 10vh;
+    height: 12vh;
     justify-content: space-between; /* primer item a l'inici i el segon/últim al final  */
     align-items: center;
 
@@ -41,9 +42,14 @@ header {
 
 #logo {
     background: #d2d3d4;
-    width: 16vw;
-    height: 5vh;
-    margin: 1em;
+    width: 20vw;
+    height: 10vh;
+    margin: 0;
+    overflow: hidden;
+}
+#logo img{
+    width: 100%;
+    height: auto;
 }
 
 #rrss {}
@@ -62,7 +68,10 @@ header {
     /* així ens assegurem que el cecle sempre sigui proporcional a l'amplada i a l'alçada */
     margin: 2px;
 }
-
+#rrss .bi {
+    font-size: 2em;
+    padding: 6px;
+}
 nav {}
 
 
@@ -74,8 +83,11 @@ nav ul {
 
 nav ul li {
     background: #969799;
-    width: 19.7vw;
+    width: 20vw;
     margin: 1px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
 
 aside ul {
@@ -109,4 +121,36 @@ article {
 footer {
     background: #4b4b4d;
     height: 10vh;
+}
+
+
+/*** MEDIA QUERIES EM/PX 1em=16px
+xs  = 360px  - 600px, (22.5em +)
+sm  = 600px  - 900px, (37.5em +)
+md  = 900px  - 1200px, (56.25em +)
+lg  = 1200px - 1800px, (75em=1200px / 85.37em=1366px /  87.5em=1400px / 100em=1600px)
+xl  = 1800px - 1920, (112.5em=1800px / 120em=1920px)
+xxl = 2560px - (160em +)
+***/
+
+@media (min-width: 22.5em) {
+}
+@media (min-width: 37.5em) {
+}
+@media (min-width: 56.25em) {
+}
+@media (min-width: 75em) {
+    #page {
+        width: 70vw;
+    }
+}
+@media (min-width: 85.37em) {
+}
+@media (min-width: 87.5em) {
+}
+@media (min-width: 100em) {
+}
+@media (min-width: 112.5em) {
+}
+@media (min-width: 120em) {
 }
