@@ -4,10 +4,9 @@
 
 <body>
 
-<div class="page">
+<div class="home page">
 
 <?php include 'header.php' ?>
-
 
     <nav>
         <ul>
